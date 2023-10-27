@@ -1,5 +1,5 @@
 (() => {
-    var arrayEstudiantes = [{legajo: '12345',apellido :'Juncos',nombre:'Pierino', nota:'9'},{legajo: '57769',apellido :'Juncos',nombre:'Pierino', nota:'9'},{legajo: '54321',apellido :'Juncos',nombre:'Pierino', nota:'9'}]
+    var arrayEstudiantes = [{legajo: '12345',apellido :'Gonzalez',nombre:'Claudio', nota:'9'},{legajo: '57769',apellido :'Juncos',nombre:'Pierino', nota:'9'},{legajo: '54321',apellido :'Seu',nombre:'Mauro', nota:'9'},{legajo: '09876',apellido :'Lopez Rubio',nombre:'Martin', nota:'9'}]
 
     mostrarEstudiantes(arrayEstudiantes)
     console.log(arrayEstudiantes)
