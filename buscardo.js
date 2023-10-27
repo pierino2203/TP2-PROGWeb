@@ -14,8 +14,8 @@ form.addEventListener('submit', async e => {
             language: e.show.language,
             genres: e.show.genres.join(','),
             status: e.show.status,
-            rating: e.show.rating.average,
-            summary: e.show.summary
+            rating: e.show.rating.average? e.show.rating.average : 'Not Rating', 
+            summary: e.show.summary? e.show.summary.replace(/<[^>]*>/g, '') : "Not Summary" 
         })
         
     })
